@@ -1,10 +1,14 @@
+#include<stdio.h>
+
 int main(){
-    int a, b, sum;
+int a, b, c, max;
+printf(“25331a05d7\n”);
+printf("enter 3 nos");
+scanf("%d %d %d", &a, &b, &c);
 
-    printf("enter two nos");
-    scanf("%d %d", &a, &b);
+max = (a > b && a > c) ? a : (b > c ? b : c);
+printf(" the max no is : %d\n ", max);
 
-    sum = a+b;
-    printf("sum = %d",sum);
-    return 0;
+return 0;
 }
+
